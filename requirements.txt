@@ -1,0 +1,2 @@
+# No external dependencies needed — using Python stdlib only
+# urllib.request and json are built-in
