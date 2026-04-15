@@ -9,7 +9,7 @@ with open(PRODUCTS_PATH, 'r') as f:
     PRODUCTS = json.load(f)
 
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
-GEMINI_MODEL = 'gemini-2.5-flash-preview-04-17'
+GEMINI_MODEL = 'gemini-2.5-flash'
 GEMINI_URL = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}'
 
 # Build product catalog string for the prompt
